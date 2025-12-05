@@ -10,23 +10,51 @@
   <body>
     <!-- Positioning -->
 
-    <!-- Top left corner -->
-
-    <!-- Top right corner -->
-
-    <!-- Bottom left corner -->
-
-    <!-- Bottom right corner -->
+    <div class="relative h-[600px] w-[600px] bg-blue-300 rounded">
+      <!-- Top left corner -->
+      <div class="w-24 h-24 bg-rose-400 absolute"></div>
+      <!-- Bottom right corner -->
+      <div class="w-24 h-24 bg-rose-400 absolute right-0 bottom-0"></div>
+      <!-- Bottom left corner -->
+      <div class="w-24 h-24 bg-rose-400 absolute left-0 bottom-0"></div>
+      <!-- Top right corner -->
+      <div class="w-24 h-24 bg-rose-400 absolute right-0"></div>
+    </div>
 
     <!-- Span top edge -->
-
-    <!-- Span left edge -->
-
-    <!-- Span right edge -->
-
-    <!-- Span bottom edge -->
-
+    <div class="relative mt-16 h-[600px] w-[600px] bg-blue-300 rounded">
+      <!-- Top left corner -->
+      <div class="w-24 h-24 bg-rose-400 absolute inset-x-16 inset-y-16"></div>
+      <!-- Bottom right corner -->
+      <div class="w-24 h-24 bg-rose-400 absolute right-0 bottom-0"></div>
+      <!-- Bottom left corner -->
+      <!-- <div class="w-24 h-24 bg-rose-400 absolute left-0 bottom-0"></div> -->
+      <!-- Top right corner -->
+      <!-- <div class="w-24 h-24 bg-rose-400 absolute right-0"></div> -->
+    </div>
+    <br /><br />
     <!-- Display Classes -->
+    <h1 class="text-2xl text-slate-600 bg-yellow-400 mb-8 inline">
+      This is Block Level
+    </h1>
+    <h1 class="text-2xl text-slate-600 bg-yellow-400 mb-8 inline-block ml-4">
+      This is Block Level
+    </h1>
+    <h1 class="text-2xl text-slate-600 inline ml-4 bg-yellow-400 mb-8">
+      This is Block Level
+    </h1>
+    <span class="text-xl bg-rose-600 text-white p-6 block mb-8"
+      >This is Inline Span tag</span
+    >
+    <span class="text-xl bg-cyan-400 text-white p-6 block"
+      >This is Inline Span tag</span
+    >
+    <br />
+    <span class="text-xl bg-cyan-400 text-white p-6 hidden"
+      >This is Inline Span Hidden</span
+    >
+
+    <p class="mb-16"></p>
 
     <!-- Z-Index -->
 
