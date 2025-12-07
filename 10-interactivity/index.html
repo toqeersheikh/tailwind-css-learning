@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,24 +9,98 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button
+      class="hover:bg-rose-600 hover:text-blue-200 bg-blue-600 rounded-lg text-white px-8 py-4 m-8 text-xl"
+    >
+      Subscribe
+    </button>
 
     <!-- Focus State Styling -->
-
+    <button
+      class="bg-blue-600 focus:text-black rounded-lg text-white px-8 py-4 m-8 text-xl"
+    >
+      Subscribe 2
+    </button>
     <!-- Active State Styling -->
-
+    <button
+      class="active:bg-rose-600 hover:text-blue-200 bg-blue-600 rounded-lg text-white px-8 py-4 m-8 text-xl"
+    >
+      Subscribe
+    </button>
     <!-- Styling based on parent state -->
-
+    <a
+      href=""
+      class="group block mx-auto max-w-xs rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+    >
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">
+        This Some Style This Some Style This Some Style
+      </p>
+    </a>
     <!-- Pseudo Classes -->
-
+    <ul class="text-center mt-8 text-2xl first:bg-red-400">
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+      <li>List 4</li>
+      <li>List 5</li>
+      <li>List 6</li>
+    </ul>
     <!-- Appearance -->
+    <select
+      name=""
+      id=""
+      class="appearance-none p-2 bg-blue-600 text-white outline-none"
+    >
+      <option value="">Select</option>
+      <option value="">Yes</option>
+      <option value="">No</option>
+    </select>
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
 
     <!-- Cursor -->
-
+    <p class="m-8 cursor-pointer bg-blue-400 p-8 rounded-lg text-white">
+      Hello P
+    </p>
+    <p class="m-8 cursor-pointer bg-rose-400 p-8 rounded-lg text-white">
+      Hello P
+    </p>
+    <p class="rounded-lg m-8 cursor-pointer bg-cyan-400 p-8 text-white">
+      Hello P
+    </p>
+    <button
+      class="cursor-pointer bg-blue-600 text-white text-xl p-4 rounded-lg m-8"
+    >
+      Click Me
+    </button>
+    <button
+      class="cursor-wait bg-rose-600 text-white text-xl p-4 rounded-lg m-8"
+    >
+      Click Me
+    </button>
+    <button
+      class="cursor-not-allowed bg-cyan-600 text-white text-xl p-4 rounded-lg m-8"
+    >
+      Click Me
+    </button>
+    <button
+      class="cursor-none bg-cyan-800 text-white text-xl p-4 rounded-lg m-8"
+    >
+      Click Me
+    </button>
     <!-- Resize -->
-
+    <button
+      class="cursor-col-resize bg-rose-800 text-white text-xl p-4 rounded-lg m-8"
+    >
+      Click Me
+    </button>
     <!-- User Select -->
-
+    <p class="m-8 text-xl select-none">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aliquid.
+    </p>
+    <p class="m-8 text-xl select-auto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aliquid.
+    </p>
     <!-- Smooth Scroll Example -->
   </body>
 </html>
